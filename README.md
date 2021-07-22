@@ -33,7 +33,7 @@ Step 3: Tested a baseline with two authors on KNN, LogisitcRegression, DecisionT
 
 Step 4: I used a Micro F1_Score (Micro F1-score is defined as the harmonic mean of the precision and recall). I decided that this was best because there was no imbalance in categorizing. 
 
-Step 5 I took time optomizing my model and returning the best out put possible. 
+Step 5 I took time optomizing my model and returning the best output possible. 
       
       2 Authors, Training 1: Test 1 Books, Chunk 30
         Seen F1_Score: 100%
