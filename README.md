@@ -23,13 +23,13 @@ the works I included are as follows:
     -Oscar Wilde 
      The Picture of Dorian Gray, De Profoundis, The Happy Prince
 
-# Methedology
+# Methodology
 
 Step 1: I read in the text files and tokenized them by sentence. 
 
 Step 2: I created a chunking function to control the number of sentences in each sample text. I tested 200, 150, 100, 50, 10 and the optimal output was when the sentences were chunked in groups of 100.
 
-Step 3: Tested a baseline with two authors on KNN, LogisitcRegression, DecisionTreeClassifier, and RandomForestClassifier. The RandomForestClassifier with only nop optimized parameters gave me the best output score so I decided to go foward using that one. 
+Step 3: Tested a baseline with two authors on KNN, LogisitcRegression, DecisionTreeClassifier, and RandomForestClassifier. The RandomForestClassifier with no optimized parameters gave me the best output score so I decided to go foward using that one. 
 
 Step 4: I used a Micro F1_Score (Micro F1-score is defined as the harmonic mean of the precision and recall). I decided that this was best because there was no imbalance in categorizing. 
 
@@ -63,7 +63,7 @@ Linguistic Forensics: See if the suspect is author of a given text. To act as fu
 
 Historical Research: Another use for this model is to be able to see if new found writing samples are from a famous author or not. Maybe to finally to answer the question of if Shakespear is one person or many.
 
-Mimic an Author's Style: It could be used to build a test recommender to help someone write in a specific authors unique style. 
+Mimic an Author's Style: It could be used to build a text recommender to help someone write in a specific authors unique style. 
 
 
 # Further
