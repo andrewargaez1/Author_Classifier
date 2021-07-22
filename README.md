@@ -3,7 +3,7 @@ The goal of this project was to be able to use NLP appoaches to train a model to
 
 
 # Data
-I read in 8 different authors and three of their works. The works I used were not limited to just novels. I included short story collections, poems, and essays.
+I read in 8 different authors and three of their works from the Guttenburg Project. The works I used were not limited to just novels. I included short story collections, poems, and essays.
 the works I included are as follows:
 
     -Ernest Hemingway:
